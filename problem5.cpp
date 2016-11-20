@@ -39,10 +39,10 @@ int main()
 	int result=1;
 	for (int i = 1; i < 20; ++i)
 	{
-		op "lcm of "<<i<<' '<<result<<' ';
+	//	op "lcm of "<<i<<' '<<result<<' ';
 		
 		result = lcm(result,i);
-		op result<<' ';nl
+	//	op result<<' ';nl
 	}
 	op result;
 	return 0;
